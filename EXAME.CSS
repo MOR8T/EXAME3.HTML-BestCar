@@ -1,0 +1,597 @@
+*
+{
+    margin: 0;
+}
+.container-max
+{
+    width: 100%;
+}
+.container-home
+{
+    width: 100%;
+    height: 9vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+}
+.content-home
+{
+    margin-left: 10px;
+}
+.content-home2
+{
+    margin-left: 500px;
+}
+.content-home2 a
+{
+    margin: 0px 0.3px;
+    padding: 20px 4px 4px 4px;
+}
+.content-home3 a
+{
+    padding: 5px 3px 1px 3px;
+}
+.content-home2 a:hover ,.content-home3 a:hover
+{
+    background-color: rgb(225, 237, 252);   
+}
+.content-home2 a:first-child
+{
+    background-color: rgb(200, 222, 245);
+}
+.content-home3
+{
+    margin-left: 640px;
+}
+.container1
+{
+    width: 100%;
+    height: 91vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container2
+{
+    width: 100%;
+    height: 119vh;
+    background-image: url(./img/imgcar.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.content1-2
+{
+    width: 75%;
+}
+.content2-2 
+{
+    width: 65px;
+    margin-top: 20px;
+}
+.content2-2 img
+{
+    width: 100%;
+}
+.content3-2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.content4-2
+{
+    color: white;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.content4-2 a
+{
+    text-decoration: none;
+    color: white;
+}
+.content4-2 a:hover
+{
+    color: rgb(184, 184, 184);
+}
+.content5-2
+{
+    margin-top: 110px;
+    color: white;
+}
+.content5-2 h3
+{
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.content5-2 h1
+{
+    font-size: 4.5em;
+}
+.container3
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content1-3
+{
+    width: 75%;
+    display: flex;
+}
+.contentleft-3
+{
+    width: 69%;
+}
+.contentright-3
+{
+    width: 31%;
+}
+.content2-3
+{
+    margin-top: 50px;
+    width: 470px;
+    height: 510px;
+    background-color: black ;
+}
+.content2-3 img
+{
+    width: 610px;
+    margin: 70px;
+}
+.content3-3
+{
+    width: 100%;
+    margin-top: 170px;
+}
+.content4-3
+{
+    width: 65px;
+    height: 10px; 
+    background-color: black;
+}
+.content3-3 h1
+{
+    color: rgb(77, 77, 77);
+    margin: 20px 0px;
+    font-size: 2.2em;
+}
+.content3-3 h3
+{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.content3-3 p
+{
+    margin: 5px 0px;
+}
+.content5-3 
+{
+    margin-top: 50px;
+}
+.content5-3 a
+{
+    color: white;
+    padding: 15px 30px;
+    background-color: black;
+    text-decoration: none;
+}
+.content6-3
+{
+    width: 75%;
+    height: 35vh;
+    display: flex;
+}
+.content7-3-2
+{
+    margin: 100px 0px 0px 30px;
+    font-size: 1.05em;
+}
+.content7-3
+{
+    width: 40%;
+}
+.content7-3 h3
+{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.content7-3 p
+{
+    margin: 5px 0px;
+}
+.content8-3
+{
+    width: 20%;
+}
+.content8-3-2 
+{
+    margin: 80px 0px 0px 30px;
+}
+.content8-3-2 i 
+{
+    font-size: 4em;
+    margin: 15px;
+}
+.container4
+{
+    width: 100%;
+    background-color: black;
+    margin-top: 220px;
+    height: 160vh;
+}
+.content-4
+{
+    display: flex;
+}
+.content1-4
+{
+    width: 350px;
+    height: 350px;
+    padding: 120px 0px 0px 300px;
+}
+.content2-4
+{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 99, 99);
+}
+.content2-4 img
+{
+    width: 350px;
+    height: 350px;
+    margin: -50px 0px 0px -100px;
+}
+.content3-4
+{
+    margin: 100px 0px 0px 100px;
+}
+.content3-4 h2{
+    color:rgb(251, 98, 98);
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+.content3-4 h3
+{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: white;
+}
+.content3-4 p
+{
+    margin: 5px 0px;
+    color: white;
+}
+.content5-4
+{
+    display: flex;
+}
+.content6-4
+{
+    margin: 80px 0px 0px 200px;
+}
+.content6-4 h3
+{
+    letter-spacing: 2px;
+    color: white;
+}
+.content6-4 h3:nth-child(2)
+{
+    margin-bottom: 20px;
+}
+.content6-4 p
+{
+    margin: 5px 0px;
+    color: white;
+}
+.content4-4
+{
+    margin: -80px 0px 0px 150px;
+    width: 45%;
+}
+.content4-4 img{
+    width: 100%;
+}
+.content7-4
+{
+    margin-top: 50px;
+}
+.content7-4 a
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(252, 99, 99);
+    padding: 12px 30px;
+}
+.content7-4 a:hover
+{
+    background-color: rgb(255, 73, 73);
+}
+.content8-4
+{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+}
+.content9-4
+{
+    width: 41%;
+    margin-left: 250px;
+}
+.content9-4 img
+{
+    width: 100%;
+}
+.content10-4
+{
+    color: white;
+    margin-left: 200px;
+    text-align: end;
+    margin-top: 100px;
+}
+.content11-4
+{
+    margin-top: 20px;
+}
+.content11-4 a
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(252, 99, 99);
+    padding: 12px 30px;
+}
+.content11-4 a:hover
+{
+    background-color: rgb(255, 73, 73);
+}
+.container5
+{
+    width: 100%;
+    height: 165vh;
+}
+.content1-5
+{
+    width: 100%;
+    text-align: center;
+    color:rgb(252, 99, 99);
+    font-size: 1.2em;
+}
+.content3-5
+{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.content2-5
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content4-5
+{
+    letter-spacing: 2px;
+    width: 17%;
+    height: 220px;
+    overflow:hidden;
+}
+.content4-5 img
+{
+    width: 120%;
+    margin-bottom: 10px;
+}
+.contentleft-5
+{
+    width: 50%;
+    margin: -50px;
+}
+.contentleft2-5
+{
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+}
+.contentleft2-5 img
+{
+    width: 75%;
+    margin-left: 100px;
+    margin-top: -250px;
+}
+.conentright-5
+{
+    width: 50%;
+    margin-bottom: -200px;
+}
+.content6-5
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.contentright-5 h1
+{
+    color:rgb(252, 99, 99);
+    font-size: 2.2em;
+    margin: 30px 0px;
+}
+.contentright-5 p
+{
+    color: grey;
+    margin: 5px 0px;
+}
+.contentright-5 p:nth-child(9)
+{
+    color: rgb(46, 46, 46);
+    margin: 30px 0px 5px 0px;
+}
+.contentright-5 p:nth-child(10)
+{
+    color: rgb(46, 46, 46);
+}
+.container6
+{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    margin-top: -200px;
+    background-image: url(./img/car1.jpeg);
+    background-size: cover;
+}
+.left6
+{
+    width: 50%;
+}
+.right6
+{
+    width: 50%;
+}
+.right6-2
+{
+    width: 100%;
+    display: flex;
+}
+.content1-6
+{
+    width: 50%;
+    height: 325px;
+    overflow: hidden;
+}
+.content1-6 img
+{
+    width: 135%;
+    margin-left: -70px;
+}
+.content2-6
+{
+    width: 50%;
+    height: 325px;
+    background-color: white;
+}
+.content3-6
+{
+    width: 50%;
+    height: 325px;
+    background:rgb(251, 94, 94);
+    color: white;
+}
+.content3-6 h1
+{
+    margin: 70px 0px 0px 20px;
+    font-size: 2.1em;
+}
+.content3-6 p
+{
+    margin: 20px 0px 0px 20px;
+}
+.content2-6 h1
+{
+    font-size: 2.2em;
+    margin: 60px 0px 0px 30px;
+}
+.content2-6 a
+{   
+    margin: 0px 0px 0px 30px;
+}
+.container7
+{
+    width: 100%;
+    height: 80vh;
+}
+.content1-7
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+.left7
+{
+    width: 50%;
+    height: 80vh;
+    margin-left: 250px;
+}
+.grey
+{
+    color: grey;
+    font-weight: 400;
+}
+.right7
+{
+    width: 50%;
+    height: 80vh;
+    display: block;
+}
+.left7 h2:first-child
+{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.left7 h2:nth-child(4)
+{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.contentleft7 i
+{
+    font-size: 1.7em;
+    margin: 8px;
+}
+.contentleft7 a
+{
+    text-decoration: none;
+    color: black;
+}
+.contentleft72 h2
+{   
+    font-weight: 300;
+}
+.right7 input
+{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin: 25px 0px;
+    border: 1px solid white;
+    background-color: rgb(245, 245, 245);
+}
+.right7 h1
+{
+    margin: 80px 0px 30px 0px;
+    color: rgb(92, 92, 92);
+}
+.right7 input:nth-child(4)
+{
+    padding-bottom: 100px;
+}
+.container8
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+.container9
+{
+    background-color: rgb(55, 55, 55);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+}
+.container9 a
+{
+    color: rgb(130, 182, 222);
+}
+.size
+{
+    font-size: 0.9em;
+}
+#p
+{
+    margin-top: 10px;
+}
